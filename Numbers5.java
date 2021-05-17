@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+	class Numbers4{
+		public static void main(String[]a){
+			
+		Scanner scanner=new Scanner(System.in);
+			System.out.println("Enter The Number of row");
+                   short row =scanner.nextShort();
+                         for(int i=1; i<=row; i++){
+		    	    for(int j=1; j<i; j++){
+
+			System.out.print(" ");
+
+		    	    }
+   for (int k = i; k <= rows; k++)
+            {
+                System.out.print(k + " ");
+            }
+
+                       
+               System.out.println();
+                }
+
+
+	}
+ 
+ }
